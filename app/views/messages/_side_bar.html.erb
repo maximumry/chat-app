@@ -1,11 +1,12 @@
 <div class="side-header">
   <div class="side-header-name">
-    <%= link_to 'Thomas', '/', class:"header-name-btn" %>
+    <%= link_to current_user.name, edit_user_path(current_user), class:"header-name-btn" %>
   </div>
   <div class="room-create-btn">
   <%= link_to 'チャットを作成する', '/', class:"create-btn-link" %>
   </div>
 </div>
+
 <div class="side-room">
   <div class="side-room-name">
     <%= link_to 'testroom', '/', class:"room-name-btn" %>
