@@ -13,6 +13,7 @@ class RoomsController < ApplicationController
   end
 
   def index
+    
   end
 
   private
